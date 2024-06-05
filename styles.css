@@ -1,1 +1,93 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1rem;
+  height: 1rem;
+}
+
+header {
+  background: #464040;
+  width: 20rem;
+  height: 57.5rem;
+}
+
+.Logo {
+  position: relative;
+  top: 1.5rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 3rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1rem;
+  right: 10px;
+  list-style-type: none;
+}
+ul li {
+  width: 15.3rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+ul a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home {
+  position: relative;
+  left: 42rem;
+  bottom: 13rem;
+}
+
+.nav-hijo {
+  display: flex;
+  flex-direction: column;
+  width: 44rem;
+  height: 4rem;
+  border: 4px solid red;
+  padding: 1rem;
+}
+.nav-hijo h3 {
+  position: relative;
+  top: -0.7rem;
+}
+.nav-hijo p {
+  position: relative;
+  top: -2.3rem;
+}
+.nav-hijo .navegador {
+  position: relative;
+  bottom: 5.4rem;
+  left: 11rem;
+  align-self: center;
+}
+
+html {
+  background: #93cbe5;
+}
+
+.Vista {
+  position: relative;
+  left: 23rem;
+  bottom: 12.5rem;
+}/*# sourceMappingURL=styles.css.map */
