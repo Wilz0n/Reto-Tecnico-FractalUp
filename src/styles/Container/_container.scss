@@ -1,0 +1,39 @@
+.home {
+    position: relative;
+    left: 42rem;
+    bottom: 13rem;
+}
+
+.nav-hijo {
+    display: flex;
+    flex-direction: column;
+    width: 44rem;
+    height: 4rem;
+    border: 4px solid red;
+    padding: 1rem;
+    h3 {
+        position: relative;
+        top: -0.7rem;
+    }
+    input {
+        position: relative;
+        top: -1.4rem;
+        width: 10rem;
+    }
+    .navegador {
+        position: relative;
+        bottom: 5.4rem;
+        left: 11rem;
+        align-self: center;
+        input {
+            position: relative;
+            top: 1.6rem;
+        }
+        button {
+            position: relative;
+            top: 1.6rem;
+        }
+    }
+}
+
+

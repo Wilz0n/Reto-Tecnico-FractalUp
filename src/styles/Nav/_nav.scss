@@ -1,0 +1,45 @@
+.Logo {
+    position: relative;
+    top: 1.5rem;
+    left: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 14rem;
+    height: 3rem;
+
+    color: $bordes-nav;
+    text-decoration: none;
+    border: 1px solid $bordes-nav;
+    border-radius: 10px;
+
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 1rem;
+    right: 10px;
+
+    list-style-type: none;
+    li {
+        width: 15.3rem;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        border: 1px solid $bordes-nav;
+        border-radius: 10px;
+    }
+    a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: $bordes-nav;
+        text-decoration: none;
+    }
+}
