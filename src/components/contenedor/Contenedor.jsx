@@ -1,4 +1,5 @@
 import React from 'react'
+import { BiSearch } from 'react-icons/bi'
 
 const Contenedor = () => {
   return (
@@ -10,6 +11,7 @@ const Contenedor = () => {
           <div className='navegador'>
             <input type='text' placeholder='Buscar' />
             <button type='submit'>
+              <BiSearch></BiSearch>
               <i className='bx bx-search-alt-2'></i>
             </button>
           </div>
