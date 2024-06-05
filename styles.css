@@ -71,15 +71,24 @@ ul a {
   position: relative;
   top: -0.7rem;
 }
-.nav-hijo p {
+.nav-hijo input {
   position: relative;
-  top: -2.3rem;
+  top: -1.4rem;
+  width: 10rem;
 }
 .nav-hijo .navegador {
   position: relative;
   bottom: 5.4rem;
   left: 11rem;
   align-self: center;
+}
+.nav-hijo .navegador input {
+  position: relative;
+  top: 1.6rem;
+}
+.nav-hijo .navegador button {
+  position: relative;
+  top: 1.6rem;
 }
 
 html {
