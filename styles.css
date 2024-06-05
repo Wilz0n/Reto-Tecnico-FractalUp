@@ -13,6 +13,12 @@ header {
   height: 57.5rem;
 }
 
+aside {
+  background: #464040;
+  width: 20rem;
+  height: 56rem;
+}
+
 .Logo {
   position: relative;
   top: 1.5rem;
@@ -53,10 +59,17 @@ ul a {
   text-decoration: none;
 }
 
-.home {
+.banderas-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contenedor {
   position: relative;
   left: 42rem;
-  bottom: 13rem;
+  bottom: 55rem;
 }
 
 .nav-hijo {
