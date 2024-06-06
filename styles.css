@@ -1,3 +1,4 @@
+/* Contenedores Banderas */
 body {
   margin: 0;
   padding: 0;
@@ -28,13 +29,22 @@ aside {
   justify-content: center;
   width: 14rem;
   height: 3rem;
-  color: #fff;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid #93cbe5;
   border-radius: 10px;
   padding: 1rem;
   font-size: 1.6rem;
   font-weight: bold;
+  background: #c0dce9;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.Logo:hover {
+  background: transparent;
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px 0px #000000;
 }
 
 ul {
@@ -49,10 +59,21 @@ ul li {
   width: 15.3rem;
   padding: 0.5rem;
   margin-top: 0.5rem;
-  border: 1px solid #fff;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+ul li:hover {
+  background: #fff;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+ul li:hover a {
+  color: #464040;
 }
 ul a {
+  position: relative;
+  left: 1rem;
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
@@ -63,7 +84,73 @@ ul a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 0.7rem;
+  position: relative;
+  bottom: 52rem;
+  left: 28rem;
+}
+.banderas-container img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.banderas-box {
+  background: #fff;
+  width: 26.2rem;
+  height: 14rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.banderas-info .img-principal img {
+  width: 26.2rem;
+  height: 9rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+
+.banderas-box:hover {
+  background: transparent;
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+.banderas-box:hover .contenido-secundario h3 {
+  color: #fff;
+}
+.banderas-box:hover .contenido-secundario h4 {
+  color: #fff;
+}
+
+.contenido-secundario {
+  display: flex;
+  justify-content: space-around;
+}
+.contenido-secundario img {
+  position: relative;
+  top: 0.5rem;
+  right: 1rem;
+  border-radius: 5px;
+  width: 6rem;
+  height: 3rem;
+}
+.contenido-secundario .contenido {
+  display: flex;
+  flex-direction: column;
+}
+.contenido-secundario .contenido h3 {
+  position: relative;
+  color: #93cbe5;
+  top: -0.6rem;
+  right: 5.7rem;
+}
+.contenido-secundario .contenido h4 {
+  position: relative;
+  color: #93cbe5;
+  color: black;
+  top: -2.9rem;
+  right: 5.7rem;
 }
 
 .contenedor {
@@ -75,18 +162,23 @@ ul a {
 .nav-hijo {
   display: flex;
   flex-direction: column;
+  background: #fff;
   width: 44rem;
-  height: 4rem;
-  border: 4px solid red;
+  height: 2.5rem;
+  border-radius: 5rem;
   padding: 1rem;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px 0px #000000;
 }
 .nav-hijo h3 {
   position: relative;
-  top: -0.7rem;
+  left: 1rem;
+  top: -1.4rem;
 }
 .nav-hijo input {
   position: relative;
-  top: -1.4rem;
+  left: 1rem;
+  top: -2.4rem;
   width: 10rem;
 }
 .nav-hijo .navegador {
@@ -97,11 +189,17 @@ ul a {
 }
 .nav-hijo .navegador input {
   position: relative;
-  top: 1.6rem;
+  top: 1rem;
+  border-radius: 1rem;
+  outline: none;
+  text-align: center;
 }
 .nav-hijo .navegador button {
-  position: relative;
-  top: 1.6rem;
+  position: absolute;
+  top: 1rem;
+  border-radius: 1rem;
+  border-block-style: none;
+  border-inline-style: none;
 }
 
 html {
