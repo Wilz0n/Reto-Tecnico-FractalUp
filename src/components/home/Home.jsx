@@ -1,9 +1,10 @@
 import React from 'react'
 import { BiSearch } from 'react-icons/bi'
+import Layout from '../layout/Layout'
 
-const Contenedor = () => {
+const Home = () => {
   return (
-    <section className='home' id='home'>
+    <Layout>
       <div className='nav-padre'>
         <div className='nav-hijo'>
           <h3>Pais</h3>
@@ -17,8 +18,8 @@ const Contenedor = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Layout>
   )
 }
 
-export default Contenedor
+export default Home

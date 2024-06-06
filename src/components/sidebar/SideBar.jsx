@@ -1,6 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const SideBar = () => {
+  const menuList = [
+    { name: 'Home', path: '/' },
+    { name: 'vista 1', path: '/vista1' },
+    { name: 'vista 2', path: '/vista2' }
+  ]
+
   return (
     <aside>
       <div className='menu'>
@@ -9,18 +16,13 @@ const SideBar = () => {
         </a>
         <nav className='navbar-lateral'>
           <ul>
-            <li>
-              {/* <a href='#home'>Home</a> */}
-              <a href='@'>Home</a>
-            </li>
-            <li>
-              {/* <a href='./HTML/Vista1.html'>Vista 1</a> */}
-              <a href='@'>Vista 1</a>
-            </li>
-            <li>
-              {/* <a href='./HTML/Vista2.html'>Vista 2</a> */}
-              <a href='@'>Vista 2</a>
-            </li>
+            {menuList.map((menuItem, ix) => {
+              return (
+                <li key={ix}>
+                  <NavLink to={menuItem.path}>{menuItem.name}</NavLink>
+                </li>
+              )
+            })}
           </ul>
         </nav>
       </div>
